@@ -1,0 +1,284 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+}
+
+#main {
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 1px solid transparent;
+
+    z-index:1;
+}
+
+#storeName {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Axure Handwriting';
+    text-align: center;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border: 5px solid black;
+    padding: 5px;
+}
+
+#nav {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+    ul li {
+        display: inline;
+    }
+
+#nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+#nav ul li div {
+    float: left;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+
+#shoppingCart {
+    float: right;
+    width: 70px;
+    height: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+    #shoppingCart > img {
+        width: 70px;
+        height: 50px;
+    }
+
+#categoryBar {
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    background-color: #00aeff;
+}
+
+    #categoryBar > ul > li > div {
+        float: left;
+        height: 35px;
+        width: 100px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 40px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #categoryBar a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+#search {
+    float: right;
+    height: 50px;
+    margin-right: 20px;
+}
+
+#searchIcon {
+    float: right;
+    margin-left: 0px;
+    background-color: #008bcc;
+    cursor: pointer;
+}
+
+    #searchIcon > img {
+        height: 45px;
+        width: 70px;
+    }
+
+#searchTxtBox {
+    float: right;
+    margin-right: 0px;
+    display: none;
+}
+
+    #searchTxtBox > input {
+        height: 45px;
+        width: 150px;
+    }
+
+#slider {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 440px;
+
+    z-index:-1;
+}
+
+    #slider img {
+        width: 100%;
+        height: 440px;
+    }
+
+#merchCatalog {
+    position: absolute;
+    top: 640px;
+    width: 100%;
+    height: 400px;
+
+    z-index:22;
+}
+
+.merchPic {
+    height: 250px;
+    width: 200px;
+
+    margin:35px;
+
+    float: left;
+
+    cursor: pointer;
+
+    border: 2px solid #808080;
+}
+
+.merchPrice {
+    width:200px;
+
+    float:left;
+
+    margin-left:35px;
+    margin-right:35px;
+
+    font-size:20px;
+    font-weight:bold;
+    color:#272424;
+    text-align:center;
+
+    border-bottom:8px solid #272424;
+}
+
+#merchCatalog > div > img {
+    height: 250px;
+    width: 200px;
+}
+
+#footer {
+    position: absolute;
+    top: 1720px;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #00aeff;
+}
+
+#cartList {
+    position:absolute;
+    top:0px;
+
+    width:100%;
+    min-height:150px;
+    max-height:440px;
+
+    background-color:#625a5a;
+    z-index:3;
+
+    display:none;
+}
+
+    #cartList table {
+        width:100%;
+
+        background-color:white;
+        border:2px solid #808080;
+    }
+
+        #cartList table td {
+            width:220px;
+            height:70px;
+            text-align:center;
+            vertical-align:central;
+        }
+
+        #cartList table tr:last-child td {
+            height:40px;
+        }
+
+        #cartList table tr:first-child , #cartList table tr:last-child{
+            height:40px;
+            background-color:#89e4ac;
+        }
+
+        #cartList table th {
+            width:220px;
+            height:40px;
+            text-align:center;
+            vertical-align:central;
+            font-size:20px;
+            color:white;
+        }
+
+
+#purchaseTable td img {
+    width:70px;
+    height:70px;
+
+    cursor:pointer;
+}
+
+#exitCart {
+    background-color:#00aeff;
+
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+
+    height:40px;
+    padding-top:10px;
+    text-align:center;
+
+    cursor:pointer;
+}
+
+#notification {
+    position:fixed;
+
+    top:0px;
+    left:450px;
+
+    height:50px;
+    width:300px;
+    
+    border-radius:5px;
+
+    font-size:15px;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    padding-top:20px;
+
+    background-color:#00aeff;
+
+    z-index:100;
+}
